@@ -1155,8 +1155,10 @@ canvas {
 
 /* ANIMATIONS */
 .x1 {
-  -webkit-animation: animateBubble 25s linear infinite, sideWays 2s ease-in-out infinite alternate;
-          animation: animateBubble 25s linear infinite, sideWays 2s ease-in-out infinite alternate;
+  -webkit-animation: animateBubble 25s linear infinite,
+ sideWays 2s ease-in-out infinite alternate;
+          animation: animateBubble 25s linear infinite,
+ sideWays 2s ease-in-out infinite alternate;
   left: -5%;
   top: 5%;
   -webkit-transform: scale(0.6);
@@ -1164,8 +1166,10 @@ canvas {
 }
 
 .x2 {
-  -webkit-animation: animateBubble 20s linear infinite, sideWays 4s ease-in-out infinite alternate;
-          animation: animateBubble 20s linear infinite, sideWays 4s ease-in-out infinite alternate;
+  -webkit-animation: animateBubble 20s linear infinite,
+ sideWays 4s ease-in-out infinite alternate;
+          animation: animateBubble 20s linear infinite,
+ sideWays 4s ease-in-out infinite alternate;
   left: 5%;
   top: 80%;
   -webkit-transform: scale(0.4);
@@ -1173,8 +1177,10 @@ canvas {
 }
 
 .x3 {
-  -webkit-animation: animateBubble 28s linear infinite, sideWays 2s ease-in-out infinite alternate;
-          animation: animateBubble 28s linear infinite, sideWays 2s ease-in-out infinite alternate;
+  -webkit-animation: animateBubble 28s linear infinite,
+ sideWays 2s ease-in-out infinite alternate;
+          animation: animateBubble 28s linear infinite,
+ sideWays 2s ease-in-out infinite alternate;
   left: 10%;
   top: 40%;
   -webkit-transform: scale(0.7);
@@ -1182,8 +1188,10 @@ canvas {
 }
 
 .x4 {
-  -webkit-animation: animateBubble 22s linear infinite, sideWays 3s ease-in-out infinite alternate;
-          animation: animateBubble 22s linear infinite, sideWays 3s ease-in-out infinite alternate;
+  -webkit-animation: animateBubble 22s linear infinite,
+ sideWays 3s ease-in-out infinite alternate;
+          animation: animateBubble 22s linear infinite,
+ sideWays 3s ease-in-out infinite alternate;
   left: 20%;
   top: 0;
   -webkit-transform: scale(0.3);
@@ -1191,8 +1199,10 @@ canvas {
 }
 
 .x5 {
-  -webkit-animation: animateBubble 29s linear infinite, sideWays 4s ease-in-out infinite alternate;
-          animation: animateBubble 29s linear infinite, sideWays 4s ease-in-out infinite alternate;
+  -webkit-animation: animateBubble 29s linear infinite,
+ sideWays 4s ease-in-out infinite alternate;
+          animation: animateBubble 29s linear infinite,
+ sideWays 4s ease-in-out infinite alternate;
   left: 30%;
   top: 50%;
   -webkit-transform: scale(0.5);
@@ -1200,8 +1210,10 @@ canvas {
 }
 
 .x6 {
-  -webkit-animation: animateBubble 21s linear infinite, sideWays 2s ease-in-out infinite alternate;
-          animation: animateBubble 21s linear infinite, sideWays 2s ease-in-out infinite alternate;
+  -webkit-animation: animateBubble 21s linear infinite,
+ sideWays 2s ease-in-out infinite alternate;
+          animation: animateBubble 21s linear infinite,
+ sideWays 2s ease-in-out infinite alternate;
   left: 50%;
   top: 0;
   -webkit-transform: scale(0.8);
@@ -1209,8 +1221,10 @@ canvas {
 }
 
 .x7 {
-  -webkit-animation: animateBubble 20s linear infinite, sideWays 2s ease-in-out infinite alternate;
-          animation: animateBubble 20s linear infinite, sideWays 2s ease-in-out infinite alternate;
+  -webkit-animation: animateBubble 20s linear infinite,
+ sideWays 2s ease-in-out infinite alternate;
+          animation: animateBubble 20s linear infinite,
+ sideWays 2s ease-in-out infinite alternate;
   left: 65%;
   top: 70%;
   -webkit-transform: scale(0.4);
@@ -1218,8 +1232,10 @@ canvas {
 }
 
 .x8 {
-  -webkit-animation: animateBubble 22s linear infinite, sideWays 3s ease-in-out infinite alternate;
-          animation: animateBubble 22s linear infinite, sideWays 3s ease-in-out infinite alternate;
+  -webkit-animation: animateBubble 22s linear infinite,
+ sideWays 3s ease-in-out infinite alternate;
+          animation: animateBubble 22s linear infinite,
+ sideWays 3s ease-in-out infinite alternate;
   left: 80%;
   top: 10%;
   -webkit-transform: scale(0.3);
@@ -1227,8 +1243,10 @@ canvas {
 }
 
 .x9 {
-  -webkit-animation: animateBubble 29s linear infinite, sideWays 4s ease-in-out infinite alternate;
-          animation: animateBubble 29s linear infinite, sideWays 4s ease-in-out infinite alternate;
+  -webkit-animation: animateBubble 29s linear infinite,
+ sideWays 4s ease-in-out infinite alternate;
+          animation: animateBubble 29s linear infinite,
+ sideWays 4s ease-in-out infinite alternate;
   left: 90%;
   top: 50%;
   -webkit-transform: scale(0.6);
@@ -1236,8 +1254,10 @@ canvas {
 }
 
 .x10 {
-  -webkit-animation: animateBubble 26s linear infinite, sideWays 2s ease-in-out infinite alternate;
-          animation: animateBubble 26s linear infinite, sideWays 2s ease-in-out infinite alternate;
+  -webkit-animation: animateBubble 26s linear infinite,
+ sideWays 2s ease-in-out infinite alternate;
+          animation: animateBubble 26s linear infinite,
+ sideWays 2s ease-in-out infinite alternate;
   left: 80%;
   top: 80%;
   -webkit-transform: scale(0.3);
@@ -1289,6 +1309,9 @@ canvas {
     font-size: 16px;
   }
   .st-hero.st-style2 p br {
+    display: none;
+  }
+  .st-hero-wrap {
     display: none;
   }
 }
@@ -2126,49 +2149,6 @@ canvas {
 
 .st-testimonial.st-style1 .st-testimonial-designation {
   line-height: 1.3em;
-}
-
-/*--------------------------------------------------------------
-17. Blog
-----------------------------------------------------------------*/
-.st-post-single.st-style1 .st-post-thumb {
-  display: block;
-  overflow: hidden;
-}
-
-.st-post-single.st-style1 .st-post-thumb img {
-  width: 100%;
-}
-
-.st-post-single.st-style1 .st-post-date {
-  font-size: 14px;
-  margin-top: 22px;
-  margin-bottom: 9px;
-}
-
-.st-post-single.st-style1 .st-post-date .st-post-date-divider {
-  margin-left: 4px;
-  margin-right: 4px;
-}
-
-.st-post-single.st-style1 .st-post-date .st-post-author,
-.st-post-single.st-style1 .st-post-date .st-post-publish-date {
-  color: #fec544;
-}
-
-.st-post-single.st-style1 .st-post-date .st-post-author:hover {
-  opacity: 0.8;
-}
-
-.st-post-single.st-style1 .st-post-title {
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 1.2em;
-  margin-bottom: 0;
-}
-
-.st-post-single.st-style1 .st-post-title:hover {
-  color: #fec544;
 }
 
 /*--------------------------------------------------------------
@@ -3020,4 +3000,128 @@ canvas {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+@media screen and (max-width: 767px) {
+  .st-hero-wrap {
+    display: none;
+  }
+  
+  .st-mobile-hero {
+    display: block;
+    padding: 120px 0;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+  }
+
+  .st-mobile-hero .st-mobile-hero-content {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+
+  .st-mobile-hero h3 {
+    font-size: 18px;
+    font-weight: 500;
+    color: #fec544;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+
+  .st-mobile-hero h1 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #fec544;
+    margin-bottom: 15px;
+    line-height: 1.2;
+  }
+
+  .st-mobile-hero h2 {
+    font-size: 20px;
+    font-weight: 400;
+    color: #666;
+    margin-bottom: 30px;
+  }
+
+  .st-mobile-hero .st-mobile-hero-btn {
+    margin-bottom: 30px;
+  }
+
+  .st-mobile-hero .st-mobile-social {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .st-mobile-hero .st-mobile-social a {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f5f5f5;
+    color: #333;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+  }
+
+  .st-mobile-hero .st-mobile-social a:hover {
+    background: #000;
+    color: #fff;
+  }
+
+  .st-mobile-profile-card {
+    margin-bottom: 30px;
+    perspective: 1000px;
+  }
+
+  .st-mobile-profile-img {
+    width: 180px;
+    height: 180px;
+    margin: 0 auto;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 3px solid #fec544;
+    transform-style: preserve-3d;
+    animation: profileFloat 6s ease-in-out infinite;
+    position: relative;
+  }
+
+  .st-mobile-profile-img::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 50%;
+    box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.2);
+  }
+
+  .st-mobile-profile-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+
+  @keyframes profileFloat {
+    0% {
+      transform: translateY(0) rotate(0);
+    }
+    50% {
+      transform: translateY(-10px) rotate(3deg);
+    }
+    100% {
+      transform: translateY(0) rotate(0);
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .st-mobile-hero {
+    display: none;
+  }
 }
